@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>MC Durian</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-2 fw-bold" href="index.html"><img src="./images/LOGO_MC_DURIANS-01-removebg-preview.png" style="height: 66px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-xl-0 fs-5 ms-auto p-2 text-center">
+              <li class="nav-item me-3"><a href="index.html" class="nav-link  nav-1">首页</a></li>
+              <li class="nav-item me-3"><a href="about.html" class="nav-link nav-2">公司简介</a></li>
+              <li class="nav-item me-3"><a href="product.html" class="nav-link nav-3">我们的产品</a></li>
+              <li class="nav-item me-3"><a href="gallery.html" class="nav-link  active text-white  nav-4">图库</a></li>
+              <li class="nav-item me-3"><a href="contact.html" class="nav-link nav-5">联系我们</a></li>
+            </ul>
+            <div class="language px-3" id="languageSwitcher">
+              <a href="index.html"  onclick = "changeLanguage('cn')" language="chinese" class="language-item active text-white">CN |</a>
+              <a href="index_en.html" onclick = "changeLanguage('en')" language="english" class="language-item">EN</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- end nav  -->
+    <section id="product-bar">
+        <div class="container-fluid d-flex justify-content-center align-items-center">
+            <h1 class="text-center">图库​</h1>
+        </div>
+    </section>
+    <!-- gallery-intro -->
+    <section id="gallery-intro">
+        <div class="container-fluid">
+            <div class="d-flex align-items-center justify-content-around">
+                <div  class="gallery-icon">
+                    <i class="fa fa-truck fa-3x" aria-hidden="true"></i>
+                    <p class="py-3">批发新鲜及冷冻水果</p>
+                </div>
+                <div  class="gallery-icon">
+                    <i class="fa fa-leaf fa-3x" aria-hidden="true"></i>
+                    <p class="py-3">种植</p>
+                </div>
+                <div class="gallery-icon">
+                    <i class="fa fa-building fa-3x" aria-hidden="true"></i>
+                    <p class="py-3">加工</p>
+                </div>
+                <div class="gallery-icon">
+                    <i class="fa fa-archive fa-3x" aria-hidden="true"></i>
+                    <p class="py-3">包装</p>
+                </div>
+                <div class="gallery-icon">
+                    <i class="fa fa-globe fa-3x" aria-hidden="true"></i>
+                    <p class="py-3">贸易与出口</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- gallery image -->
+    <section id="gallery-image">
+        <div class="container-fluid">
+            <h3 class="text-center"><span>批发工厂</span></h3>
+            <div class="row py-3">
+                <div class="col-12 col-lg-3 gallery-image-column ">
+                    <img src="./images/intro-1.jpg" width="100%" height="100%">
+                </div>
+                <div class="col-12 col-lg-3 gallery-image-column ">
+                    <img src="./images/intro-2.jpg" width="100%" height="100%">
+                </div>
+                <div class="col-12 col-lg-3 gallery-image-column ">
+                    <img src="./images/intro-3.jpg" width="100%" height="100%">
+                </div>
+                <div class="col-12 col-lg-3 gallery-image-column ">
+                    <img src="./images/intro-4.jpg" width="100%" height="100%">
+                </div>
+            </div>
+            <div class="row py-3">
+                <div class="col-12 col-lg-3 gallery-image-column ">
+                    <img src="./images/intro-5.jpg" width="100%" height="100%">
+                </div>
+                <div class="col-12 col-lg-3 gallery-image-column ">
+                    <img src="./images/intro-6.jfif" width="100%" height="100%">
+                </div>
+                <div class="col-12 col-lg-3 gallery-image-column ">
+                    <img src="./images/intro-7.avif" width="100%" height="100%">
+                </div>
+                <div class="col-12 col-lg-3 gallery-image-column ">
+                    <img src="./images/intro-8.jpg" width="100%" height="100%">
+                </div>
+            </div>
+            <div class="row py-3">
+                <div class="col-12 col-lg-3 gallery-image-column ">
+                    <img src="./images/intro-9.jpg" width="100%" height="100%">
+                </div>
+                <div class="col-12 col-lg-3 gallery-image-column ">
+                    <img src="./images/intro-10.webp" width="100%" height="100%">
+                </div>
+                <div class="col-12 col-lg-3 gallery-image-column ">
+                    <img src="./images/intro-11.jpg" width="100%" height="100%">
+                </div>
+                <div class="col-12 col-lg-3 gallery-image-column ">
+                    <img src="./images/intro-12.jpeg" width="100%" height="100%">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- calling-section -->
+    <section id="call-to-action">
+        <div class="container-fluid">
+          <div class="row text-center">
+            <h2>马来西亚一站式榴莲贸易与出口商​</h2>
+            <div><button onclick = "window.location.href='https://wa.me/60144001113';">联系我们</button></div>
+          </div>
+        </div>
+      </section>
+      <!-- footer -->
+      <section id="footer" class="bg-dark text-light">
+        <p class="text-center pt-2">版权所有 翻印必究 | Copyright © 2024 | MC DURIAN | All Rights Reserved.</p>
+      </section>
+  <!-- javascript -->
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+    $(window).scroll(function () {
+            if ($(this).scrollTop() > 250) {
+                $('.sticky-top').addClass('sticky-nav').css('top', '0px');
+            } else {
+                $('.sticky-top').removeClass('sticky-nav').css('top', '-100px');
+            }
+          });
+  </script>
+  </body>
+  </html>
+  

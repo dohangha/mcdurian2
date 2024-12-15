@@ -1,0 +1,414 @@
+
+body{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.container-fluid{
+  padding-left: 60px;
+  padding-right:60px;
+}
+@media screen and (max-width: 768px){
+  .container-fluid{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin:0;
+  }
+  .navbar-brand img{
+    width: 250px;
+  }
+}
+.navbar-toggler{
+  background-color: #fff;
+}
+
+.navbar .nav-item .nav-link, .language-item{
+  color: #fcd201;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.navbar .nav-item .nav-link:hover, .nav-link:focus{
+  color: #fff;
+  transition: 1s;
+}
+.nav-link::before {
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: #031D44;
+}
+
+.nav-link:hover::after,
+.nav-link:focus::after {
+  background-color: #4c2be2;
+  width: 100%;
+}
+#about .row{
+  padding-top: 80px;
+  padding-bottom:80px;
+}
+
+.about-section p{
+  font-size: 18px;
+  padding-top:20px;
+  font-weight: 800;
+  word-spacing: 10px;
+  text-overflow: clip; 
+  line-height: 1.6;
+}
+
+.about-img img{
+  border-radius: 20px;
+}
+button{
+  padding: 8px 25px;
+  background-color: #fcd201;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+#introduction{
+  background: url("./images/bg.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#introduction .container-fluid{
+  padding-bottom: 60px;
+}
+#introduction h3{
+  padding-top: 80px;
+  padding-bottom: 30px;
+  color:#fff;
+  font-weight: 800;
+}
+#introduction h3 span{
+  padding-left: 40px;
+  padding-right: 40px;
+  background: url("./images/text-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#introduction p{
+  font-weight: 800;
+  word-spacing: 10px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+#delight{
+  background-color: #10493b;
+  min-height: 400px;
+}
+#delight .row{
+    padding-bottom: 60px;
+}
+#delight .row .delight-image img{
+  -webkit-filter: sepia(20%);
+	filter: sepia(20%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  -webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+#delight .row .delight-image:hover img{
+  -webkit-filter: sepia(0);
+	filter: sepia(0);
+  -webkit-transform: scale(1);
+	transform: scale(1);
+}
+#delight h3{
+  padding-top: 80px;
+  padding-bottom: 30px;
+  color:#fff;
+  font-weight: 800;
+}
+#delight h3 span{
+  padding-left: 40px;
+  padding-right: 40px;
+  background: url("./images/text-bg-red.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#product h3{
+  padding-top: 80px;
+  padding-bottom: 30px;
+  font-weight: 800;
+}
+
+#product h3 span{
+  padding-left: 40px;
+  padding-right: 40px;
+  background: url("./images/text-bg-yellow.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#product .product-image img{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#product .product-image:hover img{
+  -webkit-transform: scale(1.04);
+	transform: scale(1.04);
+}
+#product .product-image{
+  padding-bottom: 60px;
+}
+#product p{
+  font-weight: 600;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+  font-size: 18px;
+}
+#product button{
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-bottom: 60px;
+}
+#company{
+  background: url("./images/Fresco-Green-Website_background-04.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#company h3{
+  padding-top: 80px;
+  padding-bottom: 30px;
+  font-weight: 800;
+  color: #fff;
+}
+#company h3 span{
+  padding-left: 40px;
+  padding-right: 40px;
+  background: url("./images/text-bg-red.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;}
+
+#company button{
+  background-color: red;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  color: #fff;
+}
+.company-button{
+  padding-bottom: 40px;
+}
+
+#call-to-action{
+  background-color: #10493b;
+  min-height: 180px;
+}
+#call-to-action .container-fluid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 38px;
+  color:#fff
+}
+#call-to-action h2{
+  font-size: 28px;
+  font-weight: 800;
+}
+.language{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* slide carousel */
+
+.slider {
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider::before, .slider::after {
+  background: linear-gradient(to right, #fff 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+}
+
+.slider::after {
+  right: 0;
+  top: 0;
+  -webkit-transform: rotateZ(180deg);
+  transform: rotateZ(180deg);
+}
+
+.slider::before {
+  left: 0;
+  top: 0;
+}
+
+.slider .slide-track {
+  animation: scroll 80s linear infinite;
+  display: flex;
+  width: calc(250px * 18);
+
+}
+
+.slider .slide-track:hover {
+  animation-play-state: paused;
+}
+
+.slider .slide {
+  height: 200px;
+  width: 250px;
+}
+
+
+.slide:nth-child(1), .slide:nth-child(10) {
+  background: url("./images/intro-1.jpg");
+ background-size: cover;
+}
+
+.slide:nth-child(2), .slide:nth-child(11) {
+  background: url("./images/intro-2.jpg");
+ background-size: cover;
+}
+
+.slide:nth-child(3), .slide:nth-child(12) {
+  background: url("./images/intro-3.jpg");
+ background-size: cover;
+}
+
+.slide:nth-child(4), .slide:nth-child(13) {
+  background: url("./images/intro-5.jpg");
+ background-size: cover;
+}
+
+.slide:nth-child(5), .slide:nth-child(14) {
+  background: url("./images/intro-4.jpg");
+ background-size: cover;
+}
+
+.slide:nth-child(6), .slide:nth-child(15) {
+  background: url("./images/intro-6.jfif");
+ background-size: cover;
+}
+
+.slide:nth-child(7), .slide:nth-child(16) {
+  background: url("./images/intro-7.avif");
+ background-size: cover;
+}
+
+.slide:nth-child(8), .slide:nth-child(17) {
+  background: url("./images/intro-8.jpg");
+ background-size: cover;
+}
+
+.slide:nth-child(9), .slide:nth-child(18) {
+  background: url("./images/intro-9.jpg");
+ background-size: cover;
+}
+
+@keyframes scroll {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(calc(-250px * 9));
+  }
+}
+
+/* aboutimg hover */
+.about-img figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.about-img figure:hover img {
+	-webkit-transform: scale(1.03);
+	transform: scale(1.03);
+}
+
+/*------------------------------------- end indexhtml ----------------------------------------------*/
+/*--------------------------------------- abouthtml--------------------------------------------------- */
+#company-bar .container-fluid {
+  background: url("https://www.rpnation.com/gallery/falling-snow-gif-transparent-background.26847/full");
+  height: 100px;
+  color:#fff;
+  margin-bottom: 30px;
+}
+
+#company-bar .container-fluid h1{
+  font-weight: 600;
+}
+#company-profile .container-fluid .company-text{
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+#company-profile .container-fluid .company-text p{
+  font-size: 18px;
+  font-weight: 800;
+  word-spacing: 10px;
+  text-overflow: clip; 
+  line-height: 1.6;
+}
+/*--------------------------------------- producthtml--------------------------------------------------- */
+#product-bar .container-fluid {
+  background: url("https://www.rpnation.com/gallery/falling-snow-gif-transparent-background.26847/full");
+  height: 100px;
+  color:#fff;
+}
+
+#product-bar .container-fluid h1{
+  font-weight: 600;
+}
+/*--------------------------------------- galleryhtml--------------------------------------------------- */
+#gallery-intro .container-fluid{
+  height: 140px;
+  background-color: #10493b;
+}
+#gallery-intro .container-fluid .gallery-icon{
+   color: #fff;
+   padding-top: 30px;
+   padding-bottom: 20px;
+   font-weight: 600;
+}
+#gallery-image .container-fluid{
+  background: url("./images/Fresco-Green-Website_background-04.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#gallery-image .container-fluid h3 span{
+  padding-left: 40px;
+  padding-right: 40px;
+  background: url("./images/text-bg-red.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+#gallery-image .container-fluid img{
+  border-radius: 8px;
+  padding: 5px;
+}

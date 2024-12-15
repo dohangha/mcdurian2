@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>MC Durian</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-2 fw-bold" href="index.html"><img src="./images/LOGO_MC_DURIANS-01-removebg-preview.png" style="height: 66px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-xl-0 fs-5 ms-auto p-2 text-center">
+          <li class="nav-item me-3"><a href="index.html" class="nav-link active text-white nav-1">首页</a></li>
+          <li class="nav-item me-3"><a href="about.html" class="nav-link  nav-2">公司简介</a></li>
+          <li class="nav-item me-3"><a href="product.html" class="nav-link nav-3">我们的产品</a></li>
+          <li class="nav-item me-3"><a href="gallery.html" class="nav-link  nav-4">图库</a></li>
+          <li class="nav-item me-3"><a href="contact.html" class="nav-link nav-5">联系我们</a></li>
+        </ul>
+        <div class="language px-3" id="languageSwitcher">
+          <a href="index.html"  onclick = "changeLanguage('cn')" language="chinese" class="language-item active text-white">CN |</a>
+          <a href="index_en.html" onclick = "changeLanguage('en')" language="english" class="language-item">EN</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+    <!-- hero image -->
+    <section id="hero">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/Fresco-Green_Website-Sliders-06.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/Fresco-Green_Website-Sliders-04.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/Fresco-Green_Website-Sliders-03.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- about us -->
+    <section id="about">
+      <div class="container-fluid ">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-6 about-section">
+            <img src="./images/LOGO_MC_DURIANS-01-removebg-preview.png" width="300px">
+            <p>马来西亚一站式榴莲出口商与榴莲食品制造商。我们的果园(占约2,500英亩以上) 位于拥有“猫山王之乡”美誉的彭亨州劳勿区(Raub)，而猫山王 (Musang King) 就是我们公司的核心生产线。我们致力于提供最优质与纯正的猫山王榴莲给我们的客户，让无论在国内或是国外的企业伙伴，都对我们的产品有着最高的信心保证。</p>
+            <button onclick = "window.location.href='about.html';">阅读更多</button>
+          </div>    
+          <div class="col-12 col-lg-6 about-img">
+            <figure><img src="https://www.frescogreen.asia/wp-content/uploads/2021/09/FRESCO-GREEN-SDN-BHD-LOCATION-1536x1024.jpg" width="100%"></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- parallax -->
+    <section id="introduction">
+      <div class="container-fluid ">
+         <h3 class="text-center"><span>猫山王榴莲名字来历</span></h3>
+          <p>猫山王榴莲初期称坤玉王 (Raja Kunyit) 毛生或毛生王，母树生长在马来西亚吉兰丹河上的一个叫 Pulau Raja 的岛上，70年代母树眼皮被驳接移植，大量种植于彭亨州的劳勿、文东、吉流以及双溪兰等地，农业部注册编号为D197。由于猫山王的名声过于响亮，于是便产生了猫山王的叫法，取于 “毛生王” 的谐音，在当地，仍有毛生或者毛生王的叫法。</p>
+          <p>还有一种说法就是猫山王 (马来文：“果子” Musang 的音释)，嗅觉灵敏又挑剔的果子狸是识别猫山王品质的小能手。马来西亚人讲熟透后从树上掉下但没有裂开的完整榴莲，送到一个困在笼里的 “猫山” （马来文：“果子狸” MUSANG) 面前由它闻香鉴别优劣，如果“猫山”闻完后兴奋不已，这榴莲就是极品的 “猫山王” 。</p>
+      </div>
+    </section>
+
+    <!-- delight -->
+    <section id="delight">
+      <div class="container-fluid ">
+        <h3 class="text-center"><span>“榴莲” 忘返的美味</span></h3>
+        <div class="row">
+          <div class="col-12 col-lg-3 delight-image">
+            <img src="./images/Advantage-01.png" width="100%">
+          </div>
+          <div class="col-12 col-lg-3 delight-image">
+            <img src="./images/Advantage-02.png" width="100%">
+          </div>
+          <div class="col-12 col-lg-3 delight-image">
+            <img src="./images/Advantage-03.png" width="100%">
+          </div>
+          <div class="col-12 col-lg-3 delight-image">
+            <img src="./images/Advantage-04.png" width="100%">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product image -->
+    <section id="product">
+      <div class="container-fluid ">
+        <h3 class="text-center"><span>我们的产品</span></h3>
+        <div class="row">
+          <div class="col-12 col-lg-3 product-image ">
+            <img src="./images/Fresco-Green_Products-Images-13.png" width="100%">
+            <p>新鲜榴莲</p>
+          </div>
+          <div class="col-12 col-lg-3 product-image ">
+            <img src="./images/Fresco-Green_Products-Images-8.png" width="100%">
+            <p>冷冻榴莲</p>
+          </div>
+          <div class="col-12 col-lg-3 product-image">
+            <img src="./images/Fresco-Green_Products-Images-7.png" width="100%">
+            <p>榴莲果肉</p>
+          </div>
+          <div class="col-12 col-lg-3 product-image">
+            <img src="./images/Fresco-Green_Products-Images-1.png" width="100%">
+            <p>榴莲果泥</p>
+          </div>
+        </div>
+        <button class="ms-auto" onclick = "window.location.href='product.html';">所有产品</button>
+      </div>
+    </section>
+     <!-- company image -->
+    <section id="company">
+      <div class="container-fluid logo-university">
+        <h3 class="text-center"><span>“榴莲” 忘返的美味</span></h3>
+        <div class="slider">
+            <div class="slide-track">
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+            </div>
+        </div>
+        
+        <div class="company-button"><button onclick = "window.location.href='gallery.html';">所有产品</button></div>
+      </div>
+    </section>
+    <!-- calling-section -->
+    <section id="call-to-action">
+      <div class="container-fluid">
+        <div class="row text-center">
+          <h2>马来西亚一站式榴莲贸易与出口商​</h2>
+          <div><button onclick = "window.location.href='https://wa.me/60144001113';">联系我们</button></div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <section id="footer" class="bg-dark text-light">
+      <p class="text-center pt-2">版权所有 翻印必究 | Copyright © 2024 | MC DURIAN | All Rights Reserved.</p>
+    </section>
+<!-- javascript -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+  $(window).scroll(function () {
+          if ($(this).scrollTop() > 250) {
+              $('.sticky-top').addClass('sticky-nav').css('top', '0px');
+          } else {
+              $('.sticky-top').removeClass('sticky-nav').css('top', '-100px');
+          }
+        });
+</script>
+</body>
+</html>
