@@ -171,12 +171,13 @@ button{
   padding-bottom: 60px;
 }
 #product p{
-  font-weight: 600;
+  font-weight: 800;
   text-align: center;
   display: block;
   margin: auto;
   padding-top: 10px;
   font-size: 18px;
+  line-height: 1.6;
 }
 #product button{
   text-align: center;
