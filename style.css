@@ -3,6 +3,10 @@ body{
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  word-wrap: break-word;
+}
+p{
+  font-size: 18px;
 }
 .container-fluid{
   padding-left: 60px;
@@ -56,6 +60,7 @@ body{
   word-spacing: 10px;
   text-overflow: clip; 
   line-height: 1.6;
+  text-align: justify;
 }
 
 .about-img img{
@@ -100,6 +105,7 @@ button{
   word-spacing: 10px;
   font-size: 18px;
   line-height: 1.6;
+  text-align: justify;
 }
 #delight{
   background-color: #10493b;
@@ -367,6 +373,7 @@ button{
   word-spacing: 10px;
   text-overflow: clip; 
   line-height: 1.6;
+  text-align: justify;
 }
 /*--------------------------------------- producthtml--------------------------------------------------- */
 #product-bar .container-fluid {
@@ -377,6 +384,9 @@ button{
 
 #product-bar .container-fluid h1{
   font-weight: 600;
+}
+#product-intro .container-fluid p{
+  text-align: justify;
 }
 /*--------------------------------------- galleryhtml--------------------------------------------------- */
 #gallery-intro .container-fluid{
