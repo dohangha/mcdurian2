@@ -366,7 +366,7 @@ button{
 }
 #company-profile .container-fluid .company-text{
   margin-top: 30px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 #company-profile .container-fluid .company-text p{
   font-size: 18px;
@@ -375,6 +375,10 @@ button{
   text-overflow: clip; 
   line-height: 1.6;
   text-align: justify;
+}
+
+#company-profile  .company-video{
+  margin-bottom: 30px;
 }
 /*--------------------------------------- producthtml--------------------------------------------------- */
 #product-bar .container-fluid {
