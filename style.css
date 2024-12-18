@@ -76,7 +76,7 @@ button{
   font-weight: 600;
 }
 #introduction{
-  background: url("./images/bg.jpg");
+  background: url("./images/yeallow-background-MC.jpg");
   min-height: 400px;
   background-attachment: fixed;
   background-position: center;
@@ -186,7 +186,7 @@ button{
   margin-bottom: 60px;
 }
 #company{
-  background: url("./images/Fresco-Green-Website_background-04.jpg");
+  background: url("./images/MC-company-background.jpg");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
