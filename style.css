@@ -388,6 +388,8 @@ button{
   text-overflow: clip; 
   line-height: 1.6;
   text-align: justify;
+  text-justify: distribute;
+  hyphens: auto;
 }
 
 #company-profile  .company-video{
