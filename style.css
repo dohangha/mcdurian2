@@ -12,14 +12,21 @@ p{
   padding-left: 60px;
   padding-right:60px;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 800px){
   .container-fluid{
     padding-left: 10px;
     padding-right: 10px;
     margin:0;
   }
   .navbar-brand img{
-    width: 250px;
+    width: 200px;
+  }
+  .navbar-toggler-icon{
+    width: 20px;
+  }
+  .nav-item .nav-link{
+    font-size: 8px;
+    padding:0;
   }
 }
 .navbar-toggler{
