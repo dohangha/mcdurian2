@@ -283,7 +283,7 @@ button{
   animation: scroll 80s linear infinite;
   display: flex;
   width: calc(250px * 18);
-  gap: 10px;
+  gap: 12px;
 }
 
 .slider .slide-track:hover {
