@@ -427,7 +427,7 @@ button{
 }
 @media screen and (max-width: 768px){
   #gallery-intro .container-fluid p{
-    font-size: 12px;
+    font-size: 11px;
   }
   #gallery-intro .container-fluid .fa{
     font-size: 20px;
