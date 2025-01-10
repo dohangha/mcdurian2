@@ -69,10 +69,6 @@ p{
   text-overflow: clip; 
   line-height: 1.6;
   text-align: justify;
-  text-justify: distribute;
-  text-align-last: left;
-  hyphens: auto;
-  -webkit-hyphens: auto;
   text-shadow: 0.5px 0.1px #00ff00;
 }
 
