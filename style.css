@@ -1,6 +1,6 @@
 
 body{
-  font-family: "Montserrat", sans-serif;
+  font-family: "メイリオ", "Meiryo", arial, sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   word-wrap: break-word;
@@ -66,10 +66,9 @@ p{
   padding-top:20px;
   font-weight: 700;
   word-spacing: 10px;
-  text-wrap: wrap;
-  /* text-overflow: clip; 
+  text-overflow: clip; 
   line-height: 1.6;
-  text-align: justify; */
+  text-align: justify;
   text-shadow: 0.5px 0.1px #00ff00;
 }
 
