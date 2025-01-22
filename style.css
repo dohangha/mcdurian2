@@ -117,41 +117,7 @@ button{
   line-height: 1.6;
   text-align: justify;
 }
-#delight{
-  background-color: #10493b;
-  min-height: 400px;
-}
-#delight .row{
-    padding-bottom: 60px;
-}
-#delight .row .delight-image img{
-  -webkit-filter: sepia(20%);
-	filter: sepia(20%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-  -webkit-transform: scale(1.05);
-	transform: scale(1.05);
-}
-#delight .row .delight-image:hover img{
-  -webkit-filter: sepia(0);
-	filter: sepia(0);
-  -webkit-transform: scale(1);
-	transform: scale(1);
-}
-#delight h3{
-  padding-top: 80px;
-  padding-bottom: 30px;
-  color:#fff;
-  font-weight: 800;
-}
-#delight h3 span{
-  padding-left: 40px;
-  padding-right: 40px;
-  background: url("./images/text-bg-red.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 #product h3{
   padding-top: 80px;
   padding-bottom: 30px;
@@ -230,7 +196,7 @@ button{
 }
 
 #call-to-action{
-  background-color: #10493b;
+  background-color: #a56613;
   min-height: 180px;
 }
 #call-to-action .container-fluid{
@@ -293,7 +259,7 @@ button{
 .slider .slide {
   height: 200px;
   width: 250px;
-  border: 3px solid #10493b;
+  border: 3px solid #58370a;
 }
 
 
